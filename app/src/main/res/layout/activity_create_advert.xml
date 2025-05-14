@@ -1,0 +1,55 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:padding="16dp" android:orientation="vertical"
+        android:layout_width="match_parent" android:layout_height="wrap_content">
+
+        <RadioGroup android:id="@+id/radioGroup"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:text="@string/lost" />
+
+            <RadioButton
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:text="@string/found1" />
+
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/inputName"
+            android:layout_width="379dp"
+            android:layout_height="70dp"
+            android:hint="@string/name" />
+
+        <EditText
+            android:id="@+id/inputPhone"
+            android:layout_width="379dp"
+            android:layout_height="70dp"
+            android:hint="@string/phone" />
+
+        <EditText
+            android:id="@+id/inputDesc"
+            android:layout_width="379dp"
+            android:layout_height="70dp"
+            android:hint="@string/description1" />
+
+        <EditText
+            android:id="@+id/inputDate"
+            android:layout_width="379dp"
+            android:layout_height="70dp"
+            android:hint="@string/date" />
+
+        <EditText
+            android:id="@+id/inputLocation"
+            android:layout_width="379dp"
+            android:layout_height="70dp"
+            android:hint="@string/location" />
+        <Button android:id="@+id/btnSave" android:text="@string/save"
+            android:layout_width="match_parent" android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</ScrollView>
